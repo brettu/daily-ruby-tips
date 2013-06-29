@@ -50,4 +50,6 @@ sleep(5)
 Restaurant.new
 puts "This Restaurant was created at #{Restaurant.created_at}"
 
+#=> This Restaurant was created at Fri Jun 28 23:22:42 -0700 2013
+#=> This Restaurant was created at Fri Jun 28 23:22:47 -0700 2013
 
