@@ -2,8 +2,10 @@
 # to method_missing implementations and should be used.
 # Today we look at why you should use respond_to_missing. 
 
-# First lets look at a normal course class 
+# Example is good/clean path first because of stack trace in bad path
+# Sensible explanation at http://brettu.com/?p=897
 require 'ostruct'
+
 class Sport
   def student
     @_student ||= OpenStruct.new(name: 'Patty Strikes', age: 21, major: 'Education')
