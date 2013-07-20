@@ -27,7 +27,7 @@ class Course
   end
 
   def over_capacity?
-    @students.length >= (global_capacity ? global_capacity : @capacity)
+    @students.length >= global_capacity
   end
 
 end
