@@ -1,4 +1,4 @@
-# When writting nested modules and libraries 
+# When writing nested modules and libraries 
 # we can describe our exception rendering
 # by creating a new exception class at the top of our code
 require 'date'
