@@ -1,5 +1,5 @@
 def cpu_usage
-  cpu = `ps -o %cpu #{$$}`
+  cpu = `ps -o size= #{$$}`.strip.to_i
   cpu.strip.gsub(/\n/, ": ")
 end
 
